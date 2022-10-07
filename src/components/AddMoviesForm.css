@@ -1,0 +1,32 @@
+.AddMoviesForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-title{
+    width: 90%;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.input-field{
+    width: 90%;
+    margin-bottom: 10px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(124, 124, 124, 0.308);
+}
+
+.input-field-bigger{
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 200px;
+    border: 2px solid rgba(124, 124, 124, 0.308);
+    
+}
