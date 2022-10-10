@@ -1,7 +1,7 @@
 import React from "react";
 import "./AddMoviesForm.css";
 
-const AddMoviesForm = () => {
+const AddMoviesForm = (props) => {
 
   const movieSubmitHandler = (e) => {
     e.preventDefault()
@@ -13,6 +13,7 @@ const AddMoviesForm = () => {
     }
 
     console.log(NewMovieObj);
+    props.onMovieSubmit(NewMovieObj)
 
     e.target[0].value=''
     e.target[1].value=''
